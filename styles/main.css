@@ -62,7 +62,7 @@ h5 {
 }
 
 p {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   line-height: 2;
 }
 
@@ -149,5 +149,14 @@ section {
     top: 0.2rem;
     right: 0;
     font-weight: 400;
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 2rem;
+
+    .button {
+      margin-right: 1rem;
+    }
   }
 }
