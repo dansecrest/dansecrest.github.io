@@ -67,17 +67,21 @@ h5 {
 }
 
 p {
-  margin: 1rem 0;
+  margin: 2rem 0;
   line-height: 2;
 }
 
 ul {
-  margin: 0;
+  margin: 2rem 0 0;
   padding-left: 1rem;
 
   li {
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     line-height: 2;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 }
 
@@ -139,12 +143,12 @@ section {
   .content {
     flex-grow: 1;
     position: relative;
-    margin: 0.3rem 0 0 1rem;
+    margin: 0.4rem 0 0 1rem;
   }
 
   .dates {
     position: absolute;
-    top: 0.2rem;
+    top: 0;
     right: 0;
     font-weight: 400;
   }
