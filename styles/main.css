@@ -162,6 +162,7 @@ section {
   .buttons {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 1rem;
 
     .button {
       margin-top: 1rem;
