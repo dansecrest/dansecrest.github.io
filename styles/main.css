@@ -91,7 +91,7 @@ ul {
 }
 
 a {
-  color: fff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -104,7 +104,6 @@ section {
 }
 
 .button {
-  -webkit-appearance: none;
   display: inline-flex;
   align-items: center;
   padding: 1rem 2rem;
