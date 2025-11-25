@@ -90,9 +90,12 @@ ul {
   }
 }
 
-a {
+a,
+a:link,
+a:visited {
   color: #fff;
   text-decoration: none;
+  border-color: transparent;
 }
 
 main {
@@ -103,7 +106,7 @@ section {
   margin-bottom: 3rem;
 }
 
-.button {
+a.button {
   display: inline-flex;
   align-items: center;
   padding: 1rem 2rem;
@@ -111,10 +114,11 @@ section {
   background-color: #000;
   border: 2px solid #333;
   border-radius: 5rem;
-  transition: border 0.2s linear;
+  transition: border-color 0.2s linear;
 
-  &:hover {
-    border: 2px solid #fff;
+  &:hover,
+  &:active {
+    border-color: #fff;
   }
 
   .icon {
