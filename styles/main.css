@@ -109,8 +109,10 @@ section {
   padding: 1rem 2rem;
   font-weight: 300;
   background-color: #000;
-  border: 2px solid #333;
+  border: 2px solid;
+  border-color: #333;
   border-radius: 5rem;
+  transition: border-color 0.2s linear;
 
   &:hover {
     border-color: #fff;
